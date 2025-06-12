@@ -1,0 +1,190 @@
+body {/*changes the color of the background*/
+	background: 
+	radial-gradient(circle, #d7e0cd 30%, #abb1a3 70%, #6c6d65);
+	color:#2e2d2b;
+}
+
+a{/*for all links*/
+	text-decoration: none;
+}
+
+p{
+	font-size: 35px;
+	padding-left: 40px;
+}
+
+/*Related to the nav bar*/
+nav {/* Nav bar*/
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #2e2d2b;
+}
+
+nav li {
+	float: left;
+	
+}
+
+nav li a {/*links at navigation*/
+	display: block;
+	padding: 14px 32px;/*up-down left-right*/
+	color:white;
+	
+}
+
+nav li a:hover{
+	background-color: #6c6d65
+}
+/*****************************/
+
+h1{
+	font-size: 80px;
+	margin-bottom: 0px;
+	padding-left: 40px;
+}
+
+p1{
+	font-size: 35px;
+	margin-top: 0; /* Remove any default top margin */
+	padding-left: 40px;
+}
+
+ul{
+	list-style-type: none;
+}
+ul li a{/*links for the home page*/
+	display: block;	
+	color:#2e2d2b;
+	font-size: 70px;
+}
+
+/*****************************/
+.hover-list li{
+	position: relative;
+}
+
+/*.images {
+    display: none;
+    position: absolute;
+    left: 55%;
+}
+
+.hover-list a {
+    position: relative;
+    display: inline-block;
+}
+
+.hover-list a:hover + .images {
+    display: block;
+}*/
+
+.hover-list a {
+    position: relative;
+    display: inline-block;
+}
+
+.arrow{
+	display: none;
+	position:absolute;
+	left:18%;
+	top:25%;
+    transform: scaleX(-1); /*Center it vertically */
+}
+
+.house{
+	display: none;
+	left:59%;
+	top: -30%;
+	position:absolute;
+}
+
+.project{
+	display: none;
+	left:55%;
+	top: 40%;
+	position:absolute;
+}
+
+.about{
+	display: none;
+	left:55%;
+	top:-70%;
+	position:absolute;
+}
+
+.contact{
+	display: none;
+	left:55%;
+	bottom:-190%;
+	position:absolute;
+}
+
+.hover-list a:hover + .arrow{
+	display: block;
+}
+
+.hover-list a:hover ~ .house{
+	display: block;
+}
+
+.hover-list a:hover ~ .project{
+	display: block;
+}
+.hover-list a:hover ~ .about{
+	display: block;
+}
+
+.hover-list a:hover ~ .contact{
+	display: block;
+}
+
+
+.frame{
+	display: block;
+	left:60%;
+	bottom: 30%;
+	position:absolute;
+}
+/***********Footer stuff******************/
+
+.footer{
+	position: absolute;
+	font-size: 20px;
+	bottom: 0px;
+	right: 0px;
+}
+
+p2{
+	padding: 0px 17px;
+	text-decoration: none;
+	
+}
+
+p2 a{/*links for footer*/
+	display: block;
+	color:#2e2d2b;
+}
+
+p3 {
+	position: absolute;
+	bottom: 0px;
+}
+
+/***********project******************/
+
+.Mario{
+	padding-left: 40px;
+}
+
+.projects{
+	position: absolute;
+	padding-left: 40px;
+	
+}
+
+.projects a{
+	text-decoration: none;
+	color:#2e2d2b;
+}
