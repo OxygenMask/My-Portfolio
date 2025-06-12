@@ -102,22 +102,22 @@ ul li a{/*links for the home page*/
 
 .project{
 	display: none;
-	left:55%;
-	top: 40%;
 	position:absolute;
+	left:61%;
+	top:-65%;
 }
 
 .about{
 	display: none;
-	left:55%;
-	top:-70%;
+	left:60.5%;
+	top:-180%;
 	position:absolute;
 }
 
 .contact{
 	display: none;
-	left:55%;
-	bottom:-190%;
+	left:59.25%;
+	bottom:-90%;
 	position:absolute;
 }
 
