@@ -96,7 +96,7 @@ ul li a{/*links for the home page*/
 .house{
 	display: none;
 	left:59%;
-	top: -30%;
+	top: -100%;
 	position:absolute;
 }
 
@@ -104,20 +104,20 @@ ul li a{/*links for the home page*/
 	display: none;
 	position:absolute;
 	left:61%;
-	top:-65%;
+	top:-150%;
 }
 
 .about{
 	display: none;
 	left:60.5%;
-	top:-180%;
+	top:-256%;
 	position:absolute;
 }
 
 .contact{
 	display: none;
 	left:59.25%;
-	bottom:-90%;
+	bottom:-30%;
 	position:absolute;
 }
 
@@ -178,6 +178,10 @@ p3 {
 	padding-left: 40px;
 }
 
+.intro-project{
+	padding-left: 40px;
+}
+
 .projects{
 	position: absolute;
 	padding-left: 40px;
@@ -188,3 +192,45 @@ p3 {
 	text-decoration: none;
 	color:#2e2d2b;
 }
+
+.projects p{
+	font-size: 20px;
+}
+
+.stacked-word{
+	position: relative;
+	display: inline-block;
+}
+
+.stacked-word .above{
+	position: absolute;
+	top: -1.2em;
+	right: -1.4em;
+}
+
+/***********contact******************/
+
+form{
+	padding-left: 40px;
+	font-size: 30px;
+}
+
+input{
+	height: 30px;
+	font-size: 15px;
+}
+
+/* Solid border */
+hr.solid {
+  background-color: gray;
+  border-color: gray;
+  margin-top: 25px;
+  height: 5px;
+  border: none;
+}
+
+/*.my-email{
+	text-align: right;
+	padding-right: 10px;
+}*/
+
